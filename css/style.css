@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size:10px;
+  scroll-behavior: smooth;
+}
+.b-img,
+.r-img,
+.n-img,
+.u-img{width:180px;
+    height:60px;
+    cursor: pointer;
+    border-radius:12%;
+    transition:.4s;
+    border-image-repeat: round;
+}
+.mobile-banking img:hover{
+  transform: scale(.9);
+}
+.main-section{
+  background-color:rgba(92, 32, 190,.6);
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-title{
+  font-size:35px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom:80px;
+  font-family: "muli";
+}
+.main-title span{
+  color:rgb(187, 202, 79)
+}
+.main-sub-title{
+  font-size:20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-bottom:50px;
+  font-family: "muli";
+}
+.mobile-banking{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.bkash{
+  border-radius:50%;
+}
+.bkash--rocket{
+  width:600px;
+  height:60px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: .4s;
+  margin-bottom:50px;
+}
+.bkash-d,
+.arrow-icon-d,
+.rocket-d,
+.nagad-d,
+.upay-d
+{
+flex-basis: 30%;
+}
+.bkash--rocket img{
+  width:90%;
+  height:65px;
+  border-radius: 10%;
+}
+.bkash--rocket:hover{
+  transform: scale(.9);
+}
+.error-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:100px;
+}
+.error-img{
+  width:250px;
+}
+.error-txt{
+  font-size: 40px;
+  color:red;
+  font-weight: bold;
+}
+/* .bg-video{
+  width:100%;
+  height:100vh;
+  position:relative;
+  z-index: 1;
+} */
